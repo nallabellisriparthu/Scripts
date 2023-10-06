@@ -25,7 +25,7 @@ kubeadm init
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
 
 # Alternatively, if you are the root user, you can run:
-  export KUBECONFIG=/etc/kubernetes/admin.conf
+  cat /etc/kubernetes/admin.conf
   
 kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
 
