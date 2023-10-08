@@ -40,6 +40,8 @@ kubeadm reset pre-flight checks
 #To verify cluster connection  
 ---------------------------------------on Master Node-----------------------------------------
 
+sudo snap install kubectl --classic
+
 kubectl get nodes 
 
 
